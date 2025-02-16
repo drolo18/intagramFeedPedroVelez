@@ -1,9 +1,14 @@
+.post_title{
+	overflow: hidden;
+}
+
 body{
 	font-family: Times New Roman;
-    font-weight: 100;
+    font-weight: 150;
     background: lightgrey;
     margin:0;
     padding: 0;
+    text-align: auto;
 }
 
 .page_header{
@@ -11,7 +16,7 @@ body{
 	border-color: lightgray;
 	background: white;
 	overflow: hidden;
-
+    text-align: auto;
 	margin-bottom: 60px;
 }
 
@@ -25,23 +30,20 @@ body{
 	margin:auto;
 }
 
+article > header{
+	padding:0px 10px;
+}
+
 article{
 	border: 1px solid lightgrey;
 	background: white;
 	margin-bottom: 60px;
-
+    text-align: auto;
 	border-radius: 3px;
 }
 
-article > header{
-	padding:0px 14px;
-}
-
-.post_title{
-	overflow: hidden;
-}
 .title_container h2{
-	font-size: 18px;
+	font-size: 20px;
 }
 
 .post_title > div {
@@ -60,15 +62,15 @@ article > header{
 }
 
 .comment_container{
-	padding:0px 24px;
+	padding:0px 10px;
 }
 
 img{
-	max-width: 598px;
-    width: 598px;
+	max-width: 600px;
+    width: 600px;
 }
 
 span{
-	font-size: 15px;
-	font-weight: 500;
+	font-size: 20px;
+	font-weight: 400;
 }
